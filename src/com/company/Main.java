@@ -8,7 +8,6 @@ public class Main {
         System.out.println("Sandesh Lamsal");
 
 
-
         //4/6/2020 2:20 pm
         int[] intArray={100, 200, 300};
         for (int a: intArray){
@@ -16,4 +15,3 @@ public class Main {
         }
     }
 }
-https://github.com/ashishlab/gitTest_HelloWorld_Project.git
