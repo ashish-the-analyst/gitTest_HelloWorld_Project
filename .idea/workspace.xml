@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f64bbce-2e39-4201-8ae2-075a0984d3f1" name="Default Changelist" comment="Changes in the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gitTestHelloWorld/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/gitTestHelloWorld/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,29 +143,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="521" y="266" width="347" height="196" key="Github.CreateGistDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585233437668" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1586282773546">
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1586317145327">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585257227151" />
-    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586282773546" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586317145327" />
     <state width="623" height="207" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1586200900178" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1586282773545">
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1586317145325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585257227150" />
-    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586282773545" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586317145325" />
     <state width="623" height="207" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1586200900177" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1586282773543">
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1586317145323">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585257227150" />
-    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586282773543" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586317145323" />
     <state width="623" height="207" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1586200900176" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1586282773546">
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1586317145326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1585257227150" />
-    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586282773546" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586317145326" />
     <state width="623" height="207" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1586200900177" />
     <state x="290" y="110" key="Vcs.Push.Dialog.v2" timestamp="1586231705329">
       <screen x="0" y="0" width="1440" height="900" />
