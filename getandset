@@ -33,6 +33,136 @@ public  void setFirstName(String firstName){
     public int getPin() {
         return pin;
     }
+    
+    
+    import java.util.ArrayList;
+import java.util.Scanner;
+
+public class bank {
+
+        // Java Program to Illlustrate Rookie Approach
+// In Banking transaction system
+
+        // Class 1
+// Bank class
+// Defining the banking transaction
+
+        // Initial balance $100
+        int total = 100;
+
+        // Money withdrawal method. Withdraw only if
+        // total money greater than or equal to the money
+        // requested for withdrawal
+
+        // Method
+        // To withdraw money
+        void withdrawn(String name, int withdrawal) {
+            if (total >= withdrawal) {
+                System.out.println(name + " withdrawn "
+                        + withdrawal);
+
+                total = total - withdrawal;
+                System.out.println("Balance after withdrawal: "
+                        + total);
+            }
+
+            // If the money requested for withdrawal is greater
+            // than the balance then deny transaction*/
+            else {
+
+                // Print statements
+                System.out.println(name
+                        + " you can not withdraw "
+                        + withdrawal);
+
+                System.out.println("your balance is: " + total);
+
+            }
+        }
+
+        // Method - to deposit money
+        // Accept money whenever deposited
+        void deposit(String name, int deposit) {
+            System.out.println(name + " deposited " + deposit);
+            total = total + deposit;
+            System.out.println("Balance after deposit: "
+                    + total);
+        }
+
+
+        public void newAccount(double newAcc) {
+            System.out.println("Enter new account number: ");
+            Scanner in = new Scanner(System.in);
+            newAcc = in.nextDouble();
+
+            ArrayList<Double> newAccount = new ArrayList<Double>();
+            newAccount.add(newAcc);
+            System.out.println("New account added with account number: "+ newAcc);
+            //      System.out.println(newAcc);
+        }
+
+        // Main driver method
+        public static void main(String[] args)
+        {
+
+            Scanner in = new Scanner(System.in);
+            int open = in.nextInt();
+            System.out.println("What do you want to do?");
+            for(int i = 0; i <= 11; i++) {
+                i++;
+                while (open == 1) {
+                    System.out.println("1. Open an account");
+                }
+                while (open == 2) {
+                    System.out.println("2. Get account information and balance");
+                }
+                while (open == 3) {
+                    System.out.println("3. Change PIN ");
+                }
+                while (open == 4) {
+                    System.out.println("4. Deposit monet in account ");
+                }
+                while (open == 5) {
+                    System.out.println("5. Transfer money between accounts");
+                }
+                while (open == 6) {
+                    System.out.println("6. Withdraw money from account");
+                }
+                while (open == 7) {
+                    System.out.println("7. ATM Withdrawal");
+                }
+                while (open == 8) {
+                    System.out.println("8. Deposit change");
+                }
+                while (open == 9) {
+                    System.out.println("9. Close an account");
+                }
+                while (open == 10) {
+                    System.out.println("10. Add monthly interest to all account");
+                }
+                while (open == 11) {
+                    System.out.println("11. End program");
+                }
+            }
+            System.out.println("Invalid choice");
+
+
+
+
+
+            // Declaring an object of Bank class and calling the
+            // withdarwn and deposit methods with suitable
+            // parameters
+
+            // Creating object of class 1 inside main()
+            bank obj = new bank();
+
+            // Custom input - Transactions
+            obj.withdrawn("Arnab", 20);
+            obj.newAccount(123);
+        }
+    }
+
     public double getBalance() {
         return balance;
     }
