@@ -1,0 +1,40 @@
+public  void setFirstName(String firstName){
+        this.firstName = firstName;
+    }
+    public  void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+    public  void setSocialNum(int socialNum) {
+        this.socialNum = socialNum;
+    }
+    public void setAccountNum(int accountNum){
+        this.accountNum = accountNum;
+    }
+    public  void setPin(int pin) {
+        this.pin = pin;
+    }
+    public  void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+
+    public String getFirstName(){
+        return firstName;
+    }
+    public  String setLastName() {
+        return lastName;
+    }
+    public int setSocialNum() {
+        return socialNum;
+    }
+    public int setAccountNum() {
+        return accountNum;
+    }
+    public int getPin() {
+        return pin;
+    }
+    public double getBalance() {
+        return balance;
+    }
+
+}
